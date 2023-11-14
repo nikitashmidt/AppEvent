@@ -58,7 +58,7 @@ function Basket() {
             );
           })}
         </ul>
-        {basket.length >= 1 && (
+        {basketList.length >= 1 && (
           <div className={styles.basket__finalPrice}>
             Итоговая сумма к оплате - {priceRu(finalPrice())}
           </div>
