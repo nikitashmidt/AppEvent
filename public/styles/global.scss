@@ -1,0 +1,48 @@
+@import "_variables.scss";
+@import "_fonts.scss";
+@import "_media.scss";
+
+body {
+  font-family: "Montserrat-Medium", sans-serif;
+  background-color: var(--color-gray);
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+hr {
+  margin: 10px 0;
+  border-color: #fff;
+}
+
+main {
+  padding-top: 158px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
